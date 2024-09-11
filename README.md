@@ -52,3 +52,15 @@ Child "1..n" *-- "1" Parent
 Child "1" --> "*" Fee
 
 ```
+## Documentacao da API (Domínio da API)
+
+[https://daycare-management-system-production.up.railway.app/swagger-ui/index.html#/](https://daycare-management-system-production.up.railway.app/swagger-ui/index.html#/)
+
+Link para acesso da API online. A api permecerá disponível enquanto for possível e permitido pelo Railway.
+
+A Api poderá sofrer algumasalterações de melhoria. De momento apenas foi concluido o desafio.
+
+
+
+
+
