@@ -32,8 +32,17 @@ dependencies {
 	
 	// https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.3.0'
-	
-	
+		
+}
+
+
+//to run on railway
+tasks.jar {
+
+	manifest {
+		attributes ["Main-Class"] = "em.dio.daycare_management_system.DaycareManagementSystemApplication"
+	}
+
 }
 
 tasks.named('test') {
